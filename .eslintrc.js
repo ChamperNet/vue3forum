@@ -18,6 +18,7 @@ module.exports = {
   rules: {
     'no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'space-in-parens': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
   }
 }
